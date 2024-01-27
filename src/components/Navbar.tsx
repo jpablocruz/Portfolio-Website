@@ -1,21 +1,19 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
-
-interface Link {
- name: string;
- link: string;
-}
+import { Link } from "../interfaces";
 const Navbar = () => {
+ const scrollFunc = (y: number) => {
+  document.getElementById("scrollable")?.scroll(0, y);
+ };
  const Links: Link[] = [
-  { name: "ABOUT", link: "#about" },
-  { name: "EXPERIENCE", link: "#experience" },
-  { name: "PROJECTS", link: "#projects" },
+  { name: "ABOUT", link: "#about", y: 100 },
+  { name: "EXPERIENCE", link: "#experience", y: 400 },
+  { name: "PROJECTS", link: "#projects", y: 700 },
  ];
  return (
   <nav className="">
    <ul className="mt-16 font-mono ">
     {Links.map((link) => (
-     <li key={link.name}>
+     <li key={link.name} onClick={() => scrollFunc(link.y)}>
       <a
        href={link.link}
        className="group flex text-white cursor:pointer items-center"

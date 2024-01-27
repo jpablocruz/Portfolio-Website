@@ -1,13 +1,7 @@
 import React from "react";
 import { IconType } from "react-icons";
 import { FaGithub, FaLinkedin, FaFreeCodeCamp } from "react-icons/fa";
-
-interface SocialBtn {
- name: string;
- icon: IconType;
- link: string;
-}
-
+import { SocialBtn } from "../interfaces";
 const Social = () => {
  const SocialBtns: SocialBtn[] = [
   {
