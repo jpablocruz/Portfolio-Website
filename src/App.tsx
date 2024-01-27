@@ -8,7 +8,7 @@ function App() {
  return (
   <>
    <Gradientdiv
-    className={"bg-black w-screen h-screen justify-center grid content-center"}
+    className={"w-screen h-screen justify-center grid content-center"}
    >
     <div className=" lg:min-h-screen lg:max-h-screen px-12 md:px-12 md:py-20 lg:px-32 lg:py-0">
      <div className="lg:justify-between lg:flex">
@@ -17,11 +17,6 @@ function App() {
      </div>
     </div>
    </Gradientdiv>
-   {/* <Gradientdiv
-    className={"bg-black w-screen h-screen justify-center grid content-center"}
-   >
-    <p className={"text-white"}> hello world </p>
-   </Gradientdiv> */}
   </>
  );
 }
