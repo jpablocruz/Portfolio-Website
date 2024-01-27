@@ -3,7 +3,9 @@ import React from "react";
 const About = () => {
  return (
   <div className="h-auto">
-   <div className="sticky top-0 bg-white lg:hidden">{"sticky title"}</div>
+   <div className=" flex sticky top-0 h-auto py-6 font-bold text-white bg-opacity-30 backdrop-blur-lg items-center lg:hidden ">
+    {"ABOUT"}
+   </div>
    <div className="flex flex-col gap-8">
     <div className="text-white text-opacity-50">
      Back in 2012, I decided to try my hand at creating custom Tumblr themes and

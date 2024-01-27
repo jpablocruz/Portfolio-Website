@@ -9,6 +9,7 @@ module.exports = {
    celeste: "#1da1f1",
    celesteLight: "#7dd8ec",
    sky: "#cef0f8",
+   yellow: "#fcee24",
    white: "#FFFFFF",
   },
   fontSize: {
