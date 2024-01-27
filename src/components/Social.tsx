@@ -7,17 +7,17 @@ const Social = () => {
   {
    name: "linkedin",
    icon: FaLinkedin,
-   link: "",
+   link: "https://www.linkedin.com/in/pablocruzramos/",
   },
   {
    name: "github",
    icon: FaGithub,
-   link: "",
+   link: "https://github.com/jpablocruz",
   },
   {
    name: "freecodecamp",
    icon: FaFreeCodeCamp,
-   link: "",
+   link: "https://forum.freecodecamp.org/u/badpacket/activity",
   },
  ];
 
@@ -28,7 +28,9 @@ const Social = () => {
      key={socialbutton.name}
      className="text-white text-opacity-50 hover:text-opacity-100"
     >
-     <a href={socialbutton.link}>{<socialbutton.icon />}</a>
+     <a href={socialbutton.link} target="_blank">
+      {<socialbutton.icon />}
+     </a>
     </li>
    ))}
   </ul>

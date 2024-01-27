@@ -9,6 +9,13 @@ const Content = () => {
   >
    <About />
    <Experience />
+   <div className="pl-5 py-10 text-white font-base text-opacity-50">
+    Coded in TypeScript using <b className="text-blue">React</b> and{" "}
+    <b className="text-blue">Tailwind</b>, deployed and hosted with{" "}
+    <b className="text-blue">Github Pages</b>. This page was heavily inspired by
+    Brittany Chiang´s Web Portfolio. If you like it you can check the repo. Dont
+    forget to give it a star <b className="text-white">★</b>.
+   </div>
   </div>
  );
 };

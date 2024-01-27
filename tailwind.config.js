@@ -5,11 +5,15 @@ module.exports = {
   extend: {},
   colors: {
    darkBlue: "#0e172a",
-   blue: "#3657a1",
+   blue: "#00a4ef",
    celeste: "#1da1f1",
    celesteLight: "#7dd8ec",
    sky: "#cef0f8",
-   yellow: "#fcee24",
+   red: "#f14f21",
+   green: "#7fb901",
+   yellow: "#feb800",
+   gray: "#1c1c1c",
+   grayLight: "#8c8c8c",
    white: "#FFFFFF",
   },
   fontSize: {

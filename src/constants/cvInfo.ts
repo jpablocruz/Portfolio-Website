@@ -13,6 +13,7 @@ export const CVInformation: CardProps[] = [
    "AWS",
    "Unit Testing",
   ],
+  link: "https://www.epam.com/",
  },
  {
   period: "AUG 2021 - JUNE 2022",
@@ -28,6 +29,7 @@ export const CVInformation: CardProps[] = [
    "Java",
    "NGX",
   ],
+  link: "https://www.softtek.com/es/",
  },
  {
   period: "FEB 2021 - MAY 2021",
@@ -35,5 +37,6 @@ export const CVInformation: CardProps[] = [
   description:
    "falta poner una descripcion tambien bro, falta poner una descripcion tambien bro, falta poner una descripcion tambien bro",
   keywords: ["Ruby", "Ruby on Rails", "Firebase", "RSpec"],
+  link: "https://www.trendit.ca/",
  },
 ];

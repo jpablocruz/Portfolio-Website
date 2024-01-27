@@ -17,16 +17,17 @@ const Experience = () => {
       position={info.position}
       description={info.description}
       keywords={info.keywords}
+      link={info.link}
      />
     ))}
    </ul>
    <div className="group pt-5 pl-5 text-base">
     <a
-     className="flex gap-2 w-auto h-auto items-center text-white font-semibase group-hover:cursor-pointer group-hover:text-yellow"
+     className="flex gap-2 w-auto h-auto items-center text-white font-semibase group-hover:cursor-pointer group-hover:text-blue"
      href="#cv"
     >
-     {"View my Resumé"}
-     <FiArrowUpRight className="text-white group-hover:text-yellow group-hover:mb-1 group-hover:ml-1 ease-in-out duration-200" />
+     {"View my Résumé"}
+     <FiArrowUpRight className="text-white group-hover:text-blue group-hover:mb-1 group-hover:ml-1 ease-in-out duration-200" />
     </a>
    </div>
   </div>

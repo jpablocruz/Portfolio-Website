@@ -1,10 +1,18 @@
 import { IconType } from "react-icons";
 
+export interface Project {
+ image: string;
+ name: string;
+ link: string;
+ description: string;
+}
+
 export interface CardProps {
  period: string;
  position: string;
  description: string;
  keywords: string[];
+ link: string;
 }
 
 export interface Link {
