@@ -4,9 +4,10 @@ import { CVInformation } from "../constants/cvInfo";
 import { CardProps } from "../interfaces";
 const Experience = () => {
  return (
-  <ul>
+  <ul className="pt-32">
    {CVInformation.map((info: CardProps) => (
     <ExperienceCard
+     key={info.period}
      period={info.period}
      position={info.position}
      description={info.description}

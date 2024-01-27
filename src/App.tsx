@@ -8,7 +8,7 @@ function App() {
  return (
   <>
    <Gradientdiv
-    className={"w-screen h-screen justify-center grid content-center"}
+    className={"w-screen h-auto justify-center grid content-center"}
    >
     <div className=" lg:min-h-screen lg:max-h-screen px-12 md:px-12 md:py-20 lg:px-32 lg:py-0">
      <div className="lg:justify-between lg:flex">
