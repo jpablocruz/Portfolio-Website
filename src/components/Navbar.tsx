@@ -1,0 +1,37 @@
+import React from "react";
+import { NavLink } from "react-router-dom";
+
+interface Link {
+ name: string;
+ link: string;
+}
+const Navbar = () => {
+ const Links: Link[] = [
+  { name: "ABOUT", link: "#about" },
+  { name: "EXPERIENCE", link: "#experience" },
+  { name: "PROJECTS", link: "#projects" },
+ ];
+ return (
+  <nav className="">
+   <ul className="mt-16 font-mono ">
+    {Links.map((link) => (
+     <li key={link.name}>
+      <a
+       href={link.link}
+       className="group flex text-white cursor:pointer items-center"
+      >
+       <div className="mr-3 h-[0.5px] w-10 bg-white bg-opacity-50 transition-all group-hover:w-16 group-hover:bg-opacity-100  motion-reduce:transition-none" />
+       <span className="text-base text-white text-opacity-50 group-hover:text-opacity-100">
+        {link.name}
+       </span>
+      </a>
+     </li>
+    ))}
+   </ul>
+  </nav>
+ );
+};
+
+// class="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"
+
+export default Navbar;
