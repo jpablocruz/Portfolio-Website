@@ -3,7 +3,7 @@ import { CardProps } from "../interfaces";
 
 const ExperienceCard = (cardProps: CardProps) => {
  return (
-  <div className="flex">
+  <div className="flex border border-none rounded-md px-4 py-2 hover:bg-white hover:bg-opacity-10">
    <div className="rounded flex flex-col w-1/3">
     <div className="py-4">
      <div className="text-white text-opacity-50 text-small">
@@ -22,7 +22,7 @@ const ExperienceCard = (cardProps: CardProps) => {
      {cardProps.keywords.map((keyword) => (
       <span
        key={keyword}
-       className="inline-block font-light bg-celesteLight bg-opacity-50 rounded-full px-3 py-1 text-sm font-semibold text-celesteLight mr-2 mb-2"
+       className="inline-block font-light bg-celeste bg-opacity-20 rounded-full px-3 py-1 text-semibase text-celeste mr-2 mb-2"
       >
        {keyword}
       </span>
