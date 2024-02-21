@@ -1,6 +1,7 @@
 import React from "react";
 import About from "./About";
 import Experience from "./Experience";
+import Projects from "./Projects";
 const Content = () => {
  return (
   <div
@@ -9,6 +10,7 @@ const Content = () => {
   >
    <About />
    <Experience />
+   <Projects />
    <div className="pl-5 py-10 text-white font-base text-opacity-50">
     Coded in TypeScript using <b className="text-blue">React</b> and{" "}
     <b className="text-blue">Tailwind</b>, deployed and hosted with{" "}

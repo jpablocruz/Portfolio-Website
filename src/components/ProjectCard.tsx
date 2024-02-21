@@ -3,12 +3,10 @@ import { Project } from "../interfaces";
 
 const ProjectCard = (cardProps: Project) => {
  return (
-  <div className=" group flex border border-none rounded-md px-4 py-1 hover:bg-white hover:bg-opacity-10">
+  <div className="group flex border border-none rounded-md px-4 py-1 bg-blue bg-opacity-10">
    <div className="rounded flex flex-col w-1/3">
     <div className="py-4">
-     <div className="text-white text-opacity-50 text-small pt-1">
-      {cardProps.image}
-     </div>
+     <img src={cardProps.image} className="flex h-[90%] rounded" />
     </div>
    </div>
    <div className="rounded overflow-hidden flex flex-col w-2/3">

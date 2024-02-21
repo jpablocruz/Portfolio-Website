@@ -5,7 +5,7 @@ import { CardProps } from "../interfaces";
 import { FiArrowUpRight } from "react-icons/fi";
 const Experience = () => {
  return (
-  <div className="py-32">
+  <div className="pt-32">
    <div className=" flex sticky top-0 h-auto py-6 font-bold text-white bg-opacity-30 backdrop-blur-lg items-center lg:hidden ">
     {"EXPERIENCE"}
    </div>

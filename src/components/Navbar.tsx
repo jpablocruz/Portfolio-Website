@@ -18,7 +18,7 @@ const Navbar = () => {
        href={link.link}
        className="group flex text-white cursor:pointer items-center"
       >
-       <div className="mr-3 h-[3px] w-10 bg-white bg-opacity-50 transition-all group-hover:w-16 group-hover:bg-opacity-100  motion-reduce:transition-none" />
+       <div className="mr-3 h-[2px] w-10 bg-white bg-opacity-50 transition-all group-hover:w-16 group-hover:bg-opacity-100  motion-reduce:transition-none" />
        <span className="text-base font-semibold text-white text-opacity-50 group-hover:text-opacity-100">
         {link.name}
        </span>
