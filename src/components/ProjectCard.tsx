@@ -3,9 +3,9 @@ import { Project } from "../interfaces";
 
 const ProjectCard = (cardProps: Project) => {
  return (
-  <div className="group flex border border-none rounded-md px-4 py-1 bg-blue bg-opacity-10">
+  <div className="group flex flex-col-reverse md:flex-row border border-none rounded-md px-4 py-1 bg-blue bg-opacity-10">
    <div className="rounded flex flex-col w-1/3">
-    <div className="py-4 max-h-fit h-[10%]">
+    <div className="py-4 md:max-h-fit ">
      <img src={cardProps.image} className="flex object-cover rounded" />
     </div>
    </div>
