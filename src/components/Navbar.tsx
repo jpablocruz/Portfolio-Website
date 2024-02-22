@@ -7,11 +7,11 @@ const Navbar = () => {
  const Links: Link[] = [
   { name: "ABOUT", link: "#about", y: -100 },
   { name: "EXPERIENCE", link: "#experience", y: 500 },
-  { name: "PROJECTS", link: "#projects", y: 1200 },
+  { name: "RECENT PROJECTS", link: "#projects", y: 1200 },
  ];
  return (
   <nav className="">
-   <ul className="mt-16 font-mono ">
+   <ul className="mt-16 font-mono invisible md:visible">
     {Links.map((link) => (
      <li key={link.name} onClick={() => scrollFunc(link.y)}>
       <a
