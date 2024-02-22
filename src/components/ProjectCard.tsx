@@ -3,7 +3,7 @@ import { Project } from "../interfaces";
 
 const ProjectCard = (cardProps: Project) => {
  return (
-  <div className="group flex flex-col-reverse md:flex-row border border-none rounded-md px-4 py-1 bg-blue bg-opacity-10">
+  <div className="group flex flex-col-reverse md:flex-row gap-4 border border-none rounded-md px-4 py-1 bg-blue bg-opacity-10">
    <div className="rounded flex flex-col w-1/3">
     <div className="py-4 md:max-h-fit ">
      <img src={cardProps.image} className="flex object-cover rounded" />
@@ -12,7 +12,7 @@ const ProjectCard = (cardProps: Project) => {
    <div className="rounded overflow-hidden flex flex-col w-2/3">
     <div className="py-4">
      <div className="font-base text-white text-base group-hover:text-blue group-hover:cursor-pointer">
-      <div className="group flex flex-col gap-2 items-center">
+      <div className="group flex flex-col gap-2">
        <a href={cardProps.link} target="_blank">
         {cardProps.name}
        </a>
